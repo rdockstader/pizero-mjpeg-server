@@ -2,8 +2,7 @@
 
 > Simple Python script that hosts an MJPEG server on a Raspberry Pi using a Pi Camera Module 3.
 
-![license](https://img.shields.io/github/license/username/repo)
-![version](https://img.shields.io/github/v/release/username/repo)
+![license](https://img.shields.io/github/license/rdockstader/pizero-mjpeg-server)
 
 ## Features
 
