@@ -1,0 +1,13 @@
+[Unit]
+Description=MJPEG Stream Server
+After=network.target
+
+[Service]
+User=ry
+WorkingDirectory=/home/USER/code/pizero-mjpeg-server
+ExecStart=/home/USER/code/pizero-mjpeg-server/.venv/bin/python /home/USER/code/raspi-cam/main.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
