@@ -4,7 +4,7 @@ MJPEG Streaming Server for Raspberry Pi Zero W + Camera Module 3
 Streams live MJPEG video over HTTP, suitable for AI consumption.
 
 Usage:
-    python3 mjpeg_stream.py [--port 8080] [--width 640] [--height 480] [--fps 15] [--quality 80]
+    python3 main.py [--port 8080] [--width 640] [--height 480] [--fps 15] [--quality 80]
 
 Access the stream at:
     http://<pi-ip>:8080/stream   <- raw MJPEG (for AI/OpenCV)
