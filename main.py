@@ -35,9 +35,9 @@ from picamera2.outputs import FileOutput
 
 parser = argparse.ArgumentParser(description="MJPEG stream server for Pi Camera Module 3")
 parser.add_argument("--port",    type=int, default=8080,  help="HTTP port (default: 8080)")
-parser.add_argument("--width",   type=int, default=640,   help="Frame width  (default: 640)")
-parser.add_argument("--height",  type=int, default=480,   help="Frame height (default: 480)")
-parser.add_argument("--fps",     type=int, default=15,    help="Frames per second (default: 15)")
+parser.add_argument("--width",   type=int, default=1280,   help="Frame width  (default: 640)")
+parser.add_argument("--height",  type=int, default=720,   help="Frame height (default: 480)")
+parser.add_argument("--fps",     type=int, default=30,    help="Frames per second (default: 15)")
 parser.add_argument("--quality", type=int, default=80,    help="JPEG quality 1-95 (default: 80)")
 args = parser.parse_args()
 
