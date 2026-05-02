@@ -63,11 +63,11 @@ python ./main.py --port 8080 --width 640 --height 480 --fps 15 --quality 70
 
 ## Running as a Service
 
-To have the MJPEG server start automatically on boot and restart if it crashes, you can install it as a `systemd` service using the included `service-install.sh` unit file.
+To have the MJPEG server start automatically on boot and restart if it crashes, you can install it as a `systemd` service using the included `mjpeg-server.service` unit file.
 
 **1. Edit the unit file**
 
-Open `service-install.sh` and update the placeholders so they match your environment:
+Open `mjpeg-server.service` and update the placeholders so they match your environment:
 
 - `User=` — the Linux user that should run the service (e.g. `pi`)
 - `WorkingDirectory=` — the absolute path to the cloned repo (e.g. `/home/pi/code/pizero-mjpeg-server`)
